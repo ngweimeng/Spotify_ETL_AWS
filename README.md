@@ -14,7 +14,12 @@ Build an ETL (Extract, Transform, Load) pipeline using Python and AWS services t
 5. Amazon Athena: Amazon Athena is an interactive query service that allows users to analyze data directly in Amazon S3 using standard SQL.
 
 ## API
-Spotify's API (Spotipy) provides developers with tools to interact with the Spotify platform and access its vast library of music metadata, playlists, and user account details - [Spotify API Documentation](https://developer.spotify.com/documentation/web-api)
+Spotify's API (Spotipy) provides developers with tools to interact with the Spotify platform and access its library of music metadata, playlists, and user account details - [Spotify API Documentation](https://developer.spotify.com/documentation/web-api)
+
+## Files
+* spotify_etl_pipeline.ipynb: Jupyter notebook to develop the initial Python code for data extraction and transformation
+* extract.py: This code will be loaded in the Lambda function to extract data from the Spotipy API. The file will be stored in "to_process" folder.
+* transform.py: This code will be loaded in the Lambda function to perform data transformation and prepare 3 files for the album, artist, and songs to be stored in "transformed_data" folder within S3 bucket. Files in the "to_process" folder will be copied to the "processed" folder and files in "to_process" will be deleted.
 
 ## Project Execution Flow
 1. Extract data from API
