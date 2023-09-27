@@ -21,5 +21,5 @@
 //
 
 ## Architecture Diagram
-<img src="//">
+<img src="Spotify ETL Architecture Diagram.png">
 
