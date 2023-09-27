@@ -14,7 +14,7 @@ Build an ETL (Extract, Transform, Load) pipeline using Python and AWS services t
 5. AWS Athena: AWS Athena is an interactive query service that allows users to analyze data directly in Amazon S3 using standard SQL.
 
 ## API/Dataset Used
-Spotify's API (spotipy) provides developers with tools to interact with the Spotify platform and access its vast library of music metadata, playlists, and user account details - [Spotify API Documentation][https://developer.spotify.com/documentation/web-api]
+Spotify's API (spotipy) provides developers with tools to interact with the Spotify platform and access its vast library of music metadata, playlists, and user account details - [Spotify API Documentation](https://developer.spotify.com/documentation/web-api)
 
 ## Project Execution Flow
 1. Data Ingestion — Build a mechanism to ingest data from different sources
