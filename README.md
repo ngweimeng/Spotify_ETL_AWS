@@ -19,10 +19,10 @@ Spotify's API (Spotipy) provides developers with tools to interact with the Spot
 ## Project Execution Flow
 1. Extract data from API
 2. Lambda trigger (Weekly)
-3. Run Extract Code
+3. Run Extract Code [extract.py]
 4. Store Raw Data
 5. Trigger Transform Function
-6. Transform Data and Load it
+6. Transform Data and Load it [transform.py]
 7. Query Using Athena
 
 
